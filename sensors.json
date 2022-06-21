@@ -1,0 +1,22 @@
+{
+  "p1":{
+    "type": "port",
+    "args": {"port": "com11", "baud_rate": 115200, "a": 1}
+  },
+  "b1": {
+    "type": "bt",
+    "args": {"addr": "EC:62:60:92:EB:92", "UUID": "0000abf2-0000-1000-8000-00805f9b34fb"}
+  },
+  "wc_classroom": {
+    "type": "wc",
+    "args": {"url": "rtsp://admin:a1234567@192.168.111.6:554/stream1"}
+  },
+  "wc_living_room": {
+    "type": "wc",
+    "args": {"url": "rtsp://admin:a1234567@192.168.111.8:554/stream1"}
+  },
+  "wc_bed_room": {
+    "type": "wc",
+    "args": {"url": "rtsp://admin:a1234567@192.168.111.9:554/stream1"}
+  }
+}
